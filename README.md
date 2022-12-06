@@ -1,6 +1,7 @@
 # ghostwriter
 
-> **Note** | If you are using this for any kind of video content, it would be very kind if you could give credits to this repository in the details / description of the video.
+> **Note**  
+> If you are using this for any kind of video content, it would be very kind if you could give credits to this repository in the details / description of the video.
 
 A little CLI tool to record changes in a file and replay them step by step.
 
@@ -28,8 +29,8 @@ Simply run the following command to replay your recording.
 ```
 ghostwriter replay main.go
 ```
-> **Note** | Here you can also specify an alternative directory for your timeline files with the `--timeline` argument.
+> **Note** Here you can also specify an alternative directory for your timeline files with the `--timeline` argument.
 
 After that, the recording will be replayed in the given file (in this case `main.go`). The file will be created if not existent or overwritten if it already existed. Simply open the file now in your editor. Now, simply press the <kbd>Enter</kbd> key on your keyboard inside the terminal where gostwrietr is running to manually advance the recorded steps.
 
-> **Note** | You can also pass a duration with the `--duration` argument to automatically advance the replayin a given time period.
+> **Note** You can also pass a duration with the `--duration` argument to automatically advance the replayin a given time period.
